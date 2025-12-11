@@ -1,0 +1,11 @@
+Task ID,Task Name,Required Skill,Duration (days),Dependencies
+T01,Define Requirements,Planning,2,
+T02,Collect Data,Data Collection,4,T01
+T03,Preprocess Data,Data Cleaning,3,T02
+T04,EDA,EDA,3,T03
+T05,Train Model,Modeling,5,T04
+T06,Validate Model,Modeling,2,T05
+T07,Document Findings,Writing,2,T04
+T08,Create Dashboard,Visualization,4,T06
+T09,Prepare Report,Writing,3,"T07,T08"
+T010,Review & Submit,Review,2,T09
