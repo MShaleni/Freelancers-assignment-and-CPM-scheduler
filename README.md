@@ -8,21 +8,21 @@ The system helps choose the best freelancer for each task based on skill, experi
 
 ---
 
-## 📌 Features
+##  Features
 
-### ✔ Freelancer–Task Assignment
+### --> Freelancer–Task Assignment
 - Matches freelancers to tasks only when skills match  
 - Considers cost per day and experience  
 - Builds and optimizes a cost matrix  
 - Uses the Hungarian Method for minimum-cost assignment  
 
-### ✔ CPM Scheduling
+### --> CPM Scheduling
 - Performs forward & backward pass  
 - Computes ES, EF, LS, LF, and Slack  
 - Identifies all critical tasks  
 - Calculates total project duration  
 
-### ✔ Generated Outputs
+### --> Generated Outputs
 - Assignment table  
 - Cost matrix  
 - CPM schedule table  
@@ -31,7 +31,7 @@ The system helps choose the best freelancer for each task based on skill, experi
 
 ---
 
-## 📂 Input Files
+##  Input Files
 
 You need two CSV files:
 
@@ -43,7 +43,7 @@ You need two CSV files:
 
 ---
 
-## 🚀 How to Run the Application
+##  How to Run the Application
 
 ### **Step 1 — Install Dependencies**
 ```bash
@@ -75,13 +75,15 @@ Critical path graph
 
 Downloadable Word report
 
-### ** 🎥 Demo Video**
+---
+### **Demo Video**
 Click below to download and view the project demo:
 
-👉 [Download Demo Video](docs/output_demo.mp4)
+ [Download Demo Video](docs/output_demo.mp4)
+ 
+---
 
-
-### **📌 Summary**
+### **Summary**
 
 This tool combines the Hungarian Method and CPM to make freelancer assignment and scheduling fast, accurate, and automated.
 It is useful for freelance platforms, academic projects, small businesses, and any situation where people and tasks need to be assigned efficiently.
